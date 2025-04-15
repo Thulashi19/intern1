@@ -1,0 +1,42 @@
+.clothes-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+  }
+  
+  .cloth-card {
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 16px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: #fff;
+    transition: transform 0.3s;
+  }
+  
+  .cloth-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .cloth-image {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  
+  .cloth-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .cloth-price {
+    color: #3d3d3d;
+    font-size: 18px;
+    margin-top: 5px;
+  }
+  
