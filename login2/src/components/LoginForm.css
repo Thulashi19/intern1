@@ -1,0 +1,92 @@
+/* LoginForm.css - Modern and Cute Style */
+
+.login-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 16px; /* Even more rounded */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08); /* Softer shadow */
+    width: 380px; /* Slightly narrower */
+    max-width: 95%; /* More responsive */
+    margin: 60px auto;
+    transition: box-shadow 0.3s ease-in-out;
+    border: 1px solid #f0f0f0; /* Light border */
+  }
+  
+  .login-container:hover {
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #ff6b6b; /* Cute primary color */
+    margin-bottom: 30px;
+    font-size: 2.2rem;
+    font-weight: 700; /* More prominent heading */
+  }
+  
+  .error-message {
+    color: #e74c3c;
+    margin-bottom: 20px;
+    padding: 12px;
+    background-color: #ffebee;
+    border-radius: 8px;
+    border: 1px solid #e74c3c;
+    font-size: 0.9rem; /* Slightly smaller error text */
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 22px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: #7f8c8d; /* Softer label color */
+    font-weight: 500;
+    font-size: 0.95rem;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #dcdcdc; /* Light gray border */
+    border-radius: 10px; /* More rounded inputs */
+    font-size: 1rem;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+    background-color: #fcfcfc; /* Light background for inputs */
+  }
+  
+  .form-control:focus {
+    outline: none;
+    border-color: #ff8a8a; /* Cute focus color */
+    box-shadow: 0 0 8px rgba(255, 138, 138, 0.2); /* Soft focus shadow */
+  }
+  
+  .btn-primary {
+    background-color: #ff8a8a; /* Cute primary button color */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px; /* Rounded button */
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08); /* Softer button shadow */
+  }
+  
+  .btn-primary:hover {
+    background-color: #ff5c5c; /* Darker cute hover color */
+    transform: translateY(-1px); /* Subtle lift */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Optional: Add a subtle pattern or background */
+  /* .login-container {
+    background-image: linear-gradient(to bottom right, #ffe0e0, #fff);
+  } */
